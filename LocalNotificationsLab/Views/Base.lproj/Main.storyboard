@@ -97,10 +97,15 @@
                         <viewLayoutGuide key="safeArea" id="O2H-RU-7Lj"/>
                     </view>
                     <navigationItem key="navigationItem" title="Create Notifications" id="6ex-HF-d8E">
-                        <barButtonItem key="rightBarButtonItem" title="Done" id="WCp-yE-vor"/>
+                        <barButtonItem key="rightBarButtonItem" title="Done" id="WCp-yE-vor">
+                            <connections>
+                                <action selector="doneButtonPressed:" destination="mKc-yT-cCs" id="c48-fU-swp"/>
+                            </connections>
+                        </barButtonItem>
                     </navigationItem>
                     <connections>
-                        <outlet property="timePickerView" destination="OKX-tA-5X0" id="Z6S-46-wHx"/>
+                        <outlet property="timePickerView" destination="OKX-tA-5X0" id="6dC-RM-6V3"/>
+                        <outlet property="titleTextField" destination="r8h-MR-NjD" id="Gzf-Ml-fhh"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="obp-SA-Usi" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>

@@ -15,6 +15,9 @@
 		63E6BD1023FF1A4400023030 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 63E6BD0E23FF1A4400023030 /* LaunchScreen.storyboard */; };
 		63E6BD1B23FF1A4500023030 /* LocalNotificationsLabTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63E6BD1A23FF1A4500023030 /* LocalNotificationsLabTests.swift */; };
 		63E6BD2923FF1EE500023030 /* CreateNotificationVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63E6BD2823FF1EE500023030 /* CreateNotificationVC.swift */; };
+		63E6BD2B23FF28B100023030 /* PendingNotification.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63E6BD2A23FF28B100023030 /* PendingNotification.swift */; };
+		63E6BD2D23FF2DBB00023030 /* pika.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 63E6BD2C23FF2DBB00023030 /* pika.jpeg */; };
+		63E6BD2F23FF2DE500023030 /* pikachu.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 63E6BD2E23FF2DE500023030 /* pikachu.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +43,9 @@
 		63E6BD1A23FF1A4500023030 /* LocalNotificationsLabTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalNotificationsLabTests.swift; sourceTree = "<group>"; };
 		63E6BD1C23FF1A4500023030 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		63E6BD2823FF1EE500023030 /* CreateNotificationVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateNotificationVC.swift; sourceTree = "<group>"; };
+		63E6BD2A23FF28B100023030 /* PendingNotification.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PendingNotification.swift; sourceTree = "<group>"; };
+		63E6BD2C23FF2DBB00023030 /* pika.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = pika.jpeg; sourceTree = "<group>"; };
+		63E6BD2E23FF2DE500023030 /* pikachu.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = pikachu.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,7 +89,10 @@
 			children = (
 				63E6BD2723FF1AB800023030 /* Views */,
 				63E6BD2623FF1A8000023030 /* Controllers */,
+				63E6BD2A23FF28B100023030 /* PendingNotification.swift */,
 				63E6BD0323FF1A4100023030 /* AppDelegate.swift */,
+				63E6BD2C23FF2DBB00023030 /* pika.jpeg */,
+				63E6BD2E23FF2DE500023030 /* pikachu.mp3 */,
 				63E6BD0523FF1A4100023030 /* SceneDelegate.swift */,
 				63E6BD0C23FF1A4400023030 /* Assets.xcassets */,
 				63E6BD1123FF1A4400023030 /* Info.plist */,
@@ -201,7 +210,9 @@
 			files = (
 				63E6BD1023FF1A4400023030 /* LaunchScreen.storyboard in Resources */,
 				63E6BD0D23FF1A4400023030 /* Assets.xcassets in Resources */,
+				63E6BD2D23FF2DBB00023030 /* pika.jpeg in Resources */,
 				63E6BD0B23FF1A4100023030 /* Main.storyboard in Resources */,
+				63E6BD2F23FF2DE500023030 /* pikachu.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -220,6 +231,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				63E6BD0823FF1A4100023030 /* NotificationsVC.swift in Sources */,
+				63E6BD2B23FF28B100023030 /* PendingNotification.swift in Sources */,
 				63E6BD2923FF1EE500023030 /* CreateNotificationVC.swift in Sources */,
 				63E6BD0423FF1A4100023030 /* AppDelegate.swift in Sources */,
 				63E6BD0623FF1A4100023030 /* SceneDelegate.swift in Sources */,
